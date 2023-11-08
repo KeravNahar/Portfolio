@@ -24,6 +24,64 @@ body {
   word-spacing: 2px;
 }
 
+
+.navbar {
+  /* height: 200px; */
+  background-color: transparent;
+  border: none;
+  color: white;
+  z-index: 100;
+  margin-left: 10%;
+  transition: background-color 1s ease 0s;
+}
+
+
+.navbar-default {
+   .navbar-brand {
+     margin-top: 10px;
+     margin-bottom: 20px;
+     color: white;
+        
+      &:hover {
+         color: #002747;
+         text-decoration: underline;
+         text-underline-offset: 8px;
+      } 
+   }
+   
+  .navbar-nav li{
+    display: flex;
+    margin-left: 10px;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .navbar-nav {
+    
+    > li {
+      
+
+      > a {
+        color: white;
+        margin: 10px 5px 5px 5px;
+        
+      }
+      > a:hover, > a:active, > a:focus {
+        color: #002747;
+        text-decoration: underline;
+        text-underline-offset: 8px;
+      }
+
+    }
+
+    } 
+
+  }
+
+
+
+
+
 #page {
   position: relative;
   overflow-x: hidden;
@@ -208,8 +266,8 @@ h1, h2, h3, h4, h5, h6, figure {
   background-position: center center;
   background-repeat: no-repeat;
   position: relative;
-  height: 200px;
-  width: 200px;
+  height: 250px;
+  width: 250px;
   margin: 0 auto;
   margin-bottom: 30px;
   -webkit-border-radius: 50%;

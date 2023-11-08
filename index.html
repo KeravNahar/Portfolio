@@ -12,7 +12,7 @@
 
 
   	<!-- Facebook and Twitter integration -->
-	<meta property="og:title" content=""/>
+	<!-- <meta property="og:title" content=""/>
 	<meta property="og:image" content=""/>
 	<meta property="og:url" content=""/>
 	<meta property="og:site_name" content=""/>
@@ -20,7 +20,7 @@
 	<meta name="twitter:title" content="" />
 	<meta name="twitter:image" content="" />
 	<meta name="twitter:url" content="" />
-	<meta name="twitter:card" content="" />
+	<meta name="twitter:card" content="" /> -->
 
 	<link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
@@ -42,11 +42,50 @@
 	<script src="js/respond.min.js"></script>
 	<![endif]-->
 
+	<!-- <script>
+		$(document).ready(function() {
+        // Transition effect for navbar 
+        $(window).scroll(function() {
+          // checks if window is scrolled more than 500px, adds/removes solid class
+          if($(this).scrollTop() > 5) { 
+              $('.navbar').addClass('solid');
+          } else {
+              $('.navbar').removeClass('solid');
+          }
+        });
+       });
+	  </script> -->
+
 	</head>
 	<body>
 		
 	<div class="fh5co-loader"></div>
-	
+
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container">
+		  <div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+			  <span class="sr-only">Toggle navigation</span>
+			  <span class="icon-bar"></span>
+			  <span class="icon-bar"></span>
+			  <span class="icon-bar"></span>
+			</button>
+		  </div>
+		  <div id="navbar" class="collapse navbar-collapse">
+			<ul class="nav navbar-nav navbar">
+			  <!-- <li><a href="#">Home</a></li> -->
+			  <li><a href="#fh5co-about">About</a></li>
+			  <li><a href="#Work">Work Experience</a></li>
+			  <li><a href="#Edu">Education</a></li>
+			  <li><a href="#POR">POR's</a></li>
+			  <li><a href="#Skills">Skills</a></li>
+			  <li><a href="#Projects">Projects</a></li>
+			  <li><a href="#Achievements">Achievements</a></li>
+			</ul>
+		  </div><!--/.nav-collapse -->
+		</div>
+	  </nav>
+
 	<div id="page">	
 	<header id="fh5co-header" class="fh5co-cover js-fullheight" role="banner" style="background-image:url(images/cover_bg_3.jpg);" data-stellar-background-ratio="0.5">
 		<div class="overlay"></div>
@@ -55,19 +94,18 @@
 				<div class="col-md-8 col-md-offset-2 text-center">
 					<div class="display-t js-fullheight">
 						<div class="display-tc js-fullheight animate-box" data-animate-effect="fadeIn">
-							<div class="profile-thumb" style="background: url(images/user-3.jpg);"></div>
+							<div class="profile-thumb" style="background: url(images/user-3.jpg); margin-top: 10%;"></div>
 							<h1><span>Kerav Nahar</span></h1>
-							<h3><span>Computer Science Student / Cyber Security Aspirant</span></h3>
 							<br><br>
 							<button style="border-radius: 15px;">
-							<a href="assets\Kerav_Nahar_Resume_19-07-2022-14-50-05.pdf" class="btn btn-outline-light mr-5" download>Download CV</a>
+							<a href="assets\KeravNahar_Resume(281023).pdf" class="btn btn-outline-light mr-5" download>Download CV</a>
 							</button>
 							<p>
 								<ul class="fh5co-social-icons">
-									<li><a href="https://github.com/KeravNahar"><i class="icon-github"></i></a></li>
-									<li><a href="https://www.behance.net/keravnahar"><i class="icon-behance"></i></a></li>
-									<li><a href="https://www.linkedin.com/in/kerav-nahar-33572b192"><i class="icon-linkedin2"></i></a></li>
-									<li><a href="mailto: kerav16@gmail.com"><i class="icon-mail"></i></a></li>
+									<li><a href="https://github.com/KeravNahar" target="_blank" ><i class="icon-github"></i></a></li>
+									<li><a href="https://www.behance.net/keravnahar" target="_blank" ><i class="icon-behance"></i></a></li>
+									<li><a href="https://www.linkedin.com/in/kerav-nahar-33572b192" target="_blank" ><i class="icon-linkedin2"></i></a></li>
+									<li><a href="mailto: kerav16@gmail.com" target="_blank" ><i class="icon-mail"></i></a></li>
 								</ul>
 							</p>
 						</div>
@@ -99,9 +137,9 @@
 						 I assure to bring fresh and a productive outlook to the organisation, giving my all to fulfill my responsibilities and tasks.</p>
 					<p>
 						<ul class="fh5co-social-icons">
-							<li><a href="https://github.com/KeravNahar"><i class="icon-github"></i></a></li>
-									<li><a href="https://www.behance.net/keravnahar"><i class="icon-behance"></i></a></li>
-									<li><a href="https://www.linkedin.com/in/kerav-nahar-33572b192"><i class="icon-linkedin2"></i></a></li>
+							<li><a href="https://github.com/KeravNahar" target="_blank"><i class="icon-github"></i></a></li>
+									<li><a href="https://www.behance.net/keravnahar" target="_blank"><i class="icon-behance"></i></a></li>
+									<li><a href="https://www.linkedin.com/in/kerav-nahar-33572b192" target="_blank"><i class="icon-linkedin2"></i></a></li>
 									<li><a href="mailto: kerav16@gmail.com"><i class="icon-mail"></i></a></li>
 						</ul>
 					</p>
@@ -114,71 +152,84 @@
 		<div class="container">
 			<div class="row animate-box">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-					<h2>My Resume</h2>
+					<h2>My Portfolio</h2>
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-md-12 col-md-offset-0">
 					<ul class="timeline">
-						<li class="timeline-heading text-center animate-box">
+						<li class="timeline-heading text-center animate-box" id="Work">
 							<div><h3>Work Experience</h3></div>
 						</li>
+
 						<li class="animate-box timeline-unverted">
 							<div class="timeline-badge"><i class="icon-suitcase"></i></div>
 							<div class="timeline-panel">
 								<div class="timeline-heading">
-									<a href="https://drive.google.com/file/d/10i5O9auWIAM6vaBdogFSLWWLaBUhzlUs/view?usp=sharing"><h3 class="timeline-title">SDE Security Intern</h3></a>
-									<span class="company">Czar Securities Pvt. Ltd - June 2022 – August 2022</span>
+									<a href="" target="_blank"><h3 class="timeline-title">Trainee Associate</h3></a>
+									<span class="company">Solution Engineer - Western Union (Jan 2023 – Present)</span>
 								</div>
 								<div class="timeline-body">
-									<p>At Astra Security I learned and enhanced my skills as a SDE Security Intern, During the tenure of the internship
-										I was tasked with creating scanner rules for OWASP Zap, finding Fix for False-Positives and overviewing the
-										Vulnerability description templates.</p>
-								</div>
-							</div>
-						</li>
-						<li class="timeline-inverted animate-box">
-							<div class="timeline-badge"><i class="icon-suitcase"></i></div>
-							<div class="timeline-panel">
-								<div class="timeline-heading">
-									<a href="https://drive.google.com/file/d/1FxcMV3DJHg9Em44eRMxd1eZqFm4mx2YR/view?usp=sharing"><h3 class="timeline-title">Lead User Interface Designer</h3></a>
-									<span class="company">Techrupt Innovations  - August 2021 – October 2021</span>
-								</div>
-								<div class="timeline-body">
-									<p>As the UI/UX lead intern for Techrupt Innovations startup Proinsights. It was a great experience redesigning the
-										website of the startup. Adding CTA buttons and making it more efficient and user friendly</p>
-								</div>
-							</div>
-						</li>
-						<li class="animate-box timeline-unverted">
-							<div class="timeline-badge"><i class="icon-suitcase"></i></div>
-							<div class="timeline-panel">
-								<div class="timeline-heading">
-									<a href="https://drive.google.com/file/d/1GnWR-drnbkfk6LGYtP1slbjbvZQGN7lD/view?usp=sharing"><h3 class="timeline-title">Human Resource Generalis</h3></a>
-									<span class="company">Peacock Solar  - June 2021 – August 2021</span>
-								</div>
-								<div class="timeline-body">
-									<p>For the tenure of three months I gained experience in hiring people sharpening my communication skills and
-										maintaining databases of various interested candidates. It was very helpful and fulfilling experience, from
-										which I learned plenty of new things about cooperate society and its functioning.</p>
-								</div>
-							</div>
-						</li>
-						<li class="timeline-inverted animate-box">
-							<div class="timeline-badge"><i class="icon-suitcase"></i></div>
-							<div class="timeline-panel">
-								<div class="timeline-heading">
-									<a href="https://drive.google.com/file/d/1nfRbX9LnNkXkI2ACNWiRc4kCFp1sA2O0/view?usp=sharing"><h3 class="timeline-title">UI/UX Designer</h3></a>
-									<span class="company">Techrupt Innovations  - May 2021 – June 2021</span>
-								</div>
-								<div class="timeline-body">
-									<p>Part of UI/UX design team tasked to redesign the learnin app and website</p>
+									<p>
+										<span>&#8226;</span> Working in Clouds Operations team<br>
+										<!-- <span>&#8226;</span> <br> -->
+										<b>Technologies used: AWS Greenfield, Privx</b>
+									</p>
 								</div>
 							</div>
 						</li>
 
-						<br>
-						<li class="timeline-heading text-center animate-box">
+						<li class="timeline-inverted animate-box">
+							<div class="timeline-badge"><i class="icon-suitcase"></i></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<a href="" target="_blank"><h3 class="timeline-title">SDE Security Intern</h3></a>
+									<span class="company">Czar Securities Pvt. Ltd (June 2022 – August 2022)</span>
+								</div>
+								<div class="timeline-body">
+									<p>
+							            <span>&#8226;</span> Finding and Fixing False-Positives<br>
+										<span>&#8226;</span> Creating scanner rules for OWASP Zap<br>
+										<b>Technologies used: OWASP Zap and JavaScript</b>
+									</p>
+								</div>
+							</div>
+						</li>
+						<li class="animate-box timeline-unverted">
+							<div class="timeline-badge"><i class="icon-suitcase"></i></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<a href="" target="_blank"><h3 class="timeline-title">Lead User Interface Designer</h3></a>
+									<span class="company">Techrupt Innovations (August 2021 – October 2021)</span>
+								</div>
+								<div class="timeline-body">
+									<p>
+										<span>&#8226;</span> Used Figma to design the prototypes and final designs<br>
+										<b>Skills achieved: UI/UX design Expertise, Team Leadership, User-Centric Approach and Creativity</b>
+									</p>
+								</div>
+							</div>
+						</li>
+						
+						<li class="timeline-inverted animate-box">
+							<div class="timeline-badge"><i class="icon-suitcase"></i></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<a href="" target="_blank"><h3 class="timeline-title">Human Resource Generalist</h3></a>
+									<span class="company">Peacock Solar (June 2021 – August 2021)</span>
+								</div>
+								<div class="timeline-body">
+									<p>
+										<span>&#8226;</span> Hiring suitable candidates<br>
+										<span>&#8226;</span> Taking mobile interviews<br>
+										<b>Skills achieved: Communication Skills, Recruitment and Selection</b>
+									</p>
+								</div>
+							</div>
+						</li>
+
+						<br><br>
+						<li class="timeline-heading text-center animate-box" id="Edu" style="margin-top: 15%;">
 							<div><h3>Education</h3></div>
 						</li>
 						<li class="timeline-inverted animate-box">
@@ -186,7 +237,7 @@
 							<div class="timeline-panel">
 								<div class="timeline-heading">
 									<h3 class="timeline-title">Bachelor's of Technology, CSE</h3>
-									<span class="company">NIIT University  - 2019 – Current ( Current - 7.94 CGPA )</span>
+									<span class="company">NIIT University  - 2019 – 2023 (8.26 CGPA)</span>
 								</div>
 							</div>
 						</li>
@@ -194,8 +245,13 @@
 							<div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
 							<div class="timeline-panel">
 								<div class="timeline-heading">
-									<h3 class="timeline-title">Senior Secondary Education (XII), Science</h3>
-									<span class="company"> Delhi Public School - 2018 - 2019 ( 90.6% )</span>
+									<h3 class="timeline-title">Senior Secondary Education, Science</h3>
+									<span class="company"> Delhi Public School - 2018 - 2019 (90.6%)</span>
+								</div>
+								<div class="timeline-body">
+									<p>
+										<span>&#8226;</span> Head Boy, DPS - Udaipur<br>
+									</p>
 								</div>
 							</div>
 						</li>
@@ -203,8 +259,13 @@
 							<div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
 							<div class="timeline-panel">
 								<div class="timeline-heading">
-									<h3 class="timeline-title">Secondary Education (X)</h3>
-									<span class="company"> Delhi Public School - 2016 - 2017 ( 10 CGPA )</span>
+									<h3 class="timeline-title">Secondary Education</h3>
+									<span class="company"> Delhi Public School - 2016 - 2017 (10 CGPA)</span>
+								</div>
+								<div class="timeline-body">
+									<p>
+										<span>&#8226;</span> House Captain, DPS - Udaipur<br>
+									</p>
 								</div>
 							</div>
 						</li>
@@ -219,7 +280,7 @@
 		<div class="container">
 			<div class="services-padding">
 				<div class="row">
-					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading" id="POR">
 						<h2>Position of Responsibilities</h2>
 					</div>
 				</div>
@@ -227,10 +288,10 @@
 					<div class="col-md-4 text-center">
 						<div class="feature-left">
 							<span class="icon">
-								<a href="https://www.linkedin.com/posts/kerav-nahar-33572b192_experience-team-activity-6802119527585996800-ENI1?utm_source=linkedin_share&utm_medium=member_desktop_web"><i class="icon-book"></i></a>
+								<a href="" target="_blank"><i class="icon-book"></i></a>
 							</span>
 							<div class="feature-copy">
-								<h3>Technical Fest - SiNUsoid, Team Lead</h3>
+								<h3>Team Lead, NIIT Technical Fest - SiNUsoid</h3>
 								<p>Led the Sponsorship Team for the technical fest SiNUsoid V4. Planning and contacting the sponsors and
 									meeting their requirements to help convince them to sponsor our event and make it a huge success</p>
 							</div>
@@ -243,8 +304,8 @@
 								<i class="icon-briefcase"></i>
 							</span>
 							<div class="feature-copy">
-								<h3>NIIT University Electronics and Robotics Club -
-									NUERC, Team Lead</h3>
+								<h3>Team Lead, NIIT University Electronics and Robotics Club -
+									NUERC</h3>
 								<p>Lead a team of 20 volunteers to design the necessary components for various competitions under the
 									Electronics and Robotics Club. This included creating the infrastructure of the robots and their maintenance
 									during competitions</p>
@@ -255,10 +316,10 @@
 					<div class="col-md-4 text-center">
 						<div class="feature-left">
 							<span class="icon">
-								<a href="https://drive.google.com/file/d/1pFl5FbwUUot4vkbtDZydvlMWnD1mimME/view?usp=sharing"><i class="icon-search"></i></a>
+								<a href="" target="_blank"><i class="icon-search"></i></a>
 							</span>
 							<div class="feature-copy">
-								<h3>NanoEPL, Mentor</h3>
+								<h3>Mentor, NanoEPL and MathsEPL</h3>
 								<p>Held the position of a mentor of a team of 10 students of first year and helped them successfully complete
 									their assigned project on Nano-Technology and Applications</p>
 							</div>
@@ -273,11 +334,11 @@
 	<div id="fh5co-skills" class="animate-box">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading" id="Skills">
 					<h2>Skills</h2>
 				</div>
 			</div>
-			<div class="row row-pb-md">
+			<!-- <div class="row row-pb-md">
 				
 				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
 					<div class="chart" data-percent="100"><span><strong>Team Skills</strong></span></div>
@@ -293,7 +354,7 @@
 				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
 					<div class="chart" data-percent="100"><span><strong>CyberSecurity Tools</strong></span></div>
 				</div>
-			</div>
+			</div> -->
 			<div class="row">
 				<div class="col-md-6">
 					<div class="progress-wrap">
@@ -378,72 +439,88 @@
 	<div id="fh5co-work" class="fh5co-bg-dark">
 		<div class="container">
 			<div class="row animate-box">
-				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading" id="Projects">
 					<h2>Academic Projects</h2>
 				</div>
 			</div>
-			<div class="row">
-				<div class="col-md-3 text-center col-padding animate-box">
-					<a href="https://github.com/KeravNahar/Neuralth.git" class="work" style="background-image: url(images/portfolio-1.jpg);">
+			<div class="row" >
+				<div class="col-md-3 text-center col-padding animate-box" style="width: 20%; height: 20%;">
+					<a href="https://github.com/KeravNahar/Neuralth.git" target="_blank" class="work" style="background-image: url(images/project/neuralth.jpg);">
 						<div class="desc">
 							<h3>Neuralth</h3>
-							<span>Website</span>
+							<span>HTML,CSS and JS</span>
 						</div>
 					</a>
 				</div>
-				<div class="col-md-3 text-center col-padding animate-box">
-					<a href="https://github.com/KeravNahar/Tiffin4U.git" class="work" style="background-image: url(images/portfolio-2.jpg);">
+				<div class="col-md-3 text-center col-padding animate-box" style="width: 20%; height: 20%;">
+					<a href="https://github.com/KeravNahar/Tiffin4U.git" target="_blank" class="work" style="background-image: url(images/project/tiffin4u.jpg);">
 						<div class="desc">
 							<h3>Tiffin4U</h3>
-							<span>Mobile Application</span>
+							<span>Flutter-Firebase</span>
 						</div>
 					</a>
 				</div>
-				<div class="col-md-3 text-center col-padding animate-box">
-					<a href="https://github.com/arorapragya/meet-ease" class="work" style="background-image: url(images/portfolio-3.jpg);">
+				<div class="col-md-3 text-center col-padding animate-box" style="width: 20%; height: 20%;">
+					<a href="https://github.com/arorapragya/meet-ease" target="_blank" class="work" style="background-image: url(images/project/meetease.jpg);">
 						<div class="desc">
 							<h3>MeetEase</h3>
-							<span>Mobile Application</span>
+							<span>Flutter-Firebase</span>
 						</div>
 					</a>
 				</div>
-				<div class="col-md-3 text-center col-padding animate-box">
-					<a href="https://github.com/KeravNahar/APT" class="work" style="background-image: url(images/portfolio-4.jpg);">
+				<div class="col-md-3 text-center col-padding animate-box" style="width: 20%; height: 20%;">
+					<a href="https://github.com/KeravNahar/APT" target="_blank" class="work" style="background-image: url(images/project/apt.jpg);">
 						<div class="desc">
 							<h3>Android Patient Tracker</h3>
-							<span>Mobile Application</span>
+							<span>Flutter-Firebase</span>
 						</div>
 					</a>
 				</div>
-				<div class="col-md-3 text-center col-padding animate-box">
-					<a href="https://www.behance.net/gallery/136916507/Smooth-Stay" class="work" style="background-image: url(images/portfolio-5.jpg);">
+				<div class="col-md-3 text-center col-padding animate-box" style="width: 20%; height: 20%;">
+					<a href="https://github.com/KeravNahar/CustomerRelationshipManager" target="_blank" class="work" style="background-image: url(images/project/crm.jpg);">
+						<div class="desc">
+							<h3>Customer Relationship Manager</h3>
+							<span>Dynamic, Oracle-SQL</span>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-3 text-center col-padding animate-box" style="width: 20%; height: 20%;">
+					<a href="https://github.com/KeravNahar/VaccinationManagementSystem" target="_blank" class="work" style="background-image: url(images/project/vms.jpg);">
+						<div class="desc">
+							<h3>Vaccine Management System</h3>
+							<span>Java Springboot</span>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-3 text-center col-padding animate-box" style="width: 20%; height: 20%;">
+					<a href="https://www.behance.net/gallery/136916507/Smooth-Stay" target="_blank" class="work" style="background-image: url(images/project/smoothstay.jpg);">
 						<div class="desc">
 							<h3>SmoothStay</h3>
-							<span>Design</span>
+							<span>Figma</span>
 						</div>
 					</a>
 				</div>
-				<div class="col-md-3 text-center col-padding animate-box">
-					<a href="#" class="work" style="background-image: url(images/portfolio-6.jpg);">
+				<div class="col-md-3 text-center col-padding animate-box" style="width: 20%; height: 20%;">
+					<a href="https://github.com/KeravNahar/GatePassManagementSystem" target="_blank" class="work" style="background-image: url(images/project/gpms.jpg);">
 						<div class="desc">
 							<h3>Gatepass Management System</h3>
-							<span>Website - Mobile Application</span>
+							<span>Django and Flutter-Firebase</span>
 						</div>
 					</a>
 				</div>
-				<div class="col-md-3 text-center col-padding animate-box">
-					<a href="#" class="work" style="background-image: url(images/portfolio-7.jpg);">
+				<div class="col-md-3 text-center col-padding animate-box" style="width: 20%; height: 20%;">
+					<a href="https://github.com/KeravNahar/Community_MEANstack" target="_blank" class="work" style="background-image: url(images/project/community.jpg);">
 						<div class="desc">
 							<h3>Community</h3>
-							<span>Web Application</span>
+							<span>MEAN Stack</span>
 						</div>
 					</a>
 				</div>
-				<div class="col-md-3 text-center col-padding animate-box">
-					<a href="https://www.behance.net/gallery/136917663/SortShots" class="work" style="background-image: url(images/portfolio-8.jpg);">
+				<div class="col-md-3 text-center col-padding animate-box" style="width: 20%; height: 20%;">
+					<a href="https://www.behance.net/gallery/136917663/SortShots" target="_blank" class="work" style="background-image: url(images/project/sortshots.jpg);">
 						<div class="desc">
 							<h3>SortShots</h3>
-							<span>Design</span>
+							<span>Figma</span>
 						</div>
 					</a>
 				</div>
@@ -454,7 +531,7 @@
 	<div id="fh5co-blog">
 		<div class="container">
 			<div class="row animate-box">
-				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading" id="Achievements">
 					<h2>Certificates and Awards</h2>
 				</div>
 			</div>
@@ -462,24 +539,24 @@
 				<div class="col-md-4">
 					<div class="fh5co-blog animate-box">
 						<div class="blog-text">
-							<h3><a href="#">Certified Ethical Hacker (CEH v11)</a></h3>
-							<p>EC Council (Ongoing)</p>
+							<h3><a href="" target="_blank">Certified Ethical Hacker (CEH v11)</a></h3>
+							<p>EC Council</p>
 						</div> 
 					</div>
 				</div>
 				<div class="col-md-4">
 					<div class="fh5co-blog animate-box">
 						<div class="blog-text">
-							<h3><a href="#">Security+</a></h3>
-							<p>Comptia (Ongoing)</p>
+							<h3><a href="" target="_blank">Security+</a></h3>
+							<p>Comptia</p>
 						</div> 
 					</div>
 				</div>
 				<div class="col-md-4">
 					<div class="fh5co-blog animate-box">
 						<div class="blog-text">
-							<h3><a href="https://www.linkedin.com/posts/kerav-nahar-33572b192_won-the-ideation-competition-under-the-technical-activity-6787694862276927488-vbMn?utm_source=linkedin_share&utm_medium=member_desktop_web">First Prize</a></h3>
-							<p>Idea Pitching, SiNUsoid v4</p>
+							<h3><a href="https://www.linkedin.com/posts/kerav-nahar-33572b192_won-the-ideation-competition-under-the-technical-activity-6787694862276927488-vbMn?utm_source=linkedin_share&utm_medium=member_desktop_web" target="_blank">Idea Pitching, SiNUsoid V4</a></h3>
+							<p>First</p>
 						</div> 
 					</div>
 				</div>
@@ -488,24 +565,24 @@
 				<div class="col-md-4">
 					<div class="fh5co-blog animate-box">
 						<div class="blog-text">
-							<h3><a href="https://www.linkedin.com/posts/niit-university_ideathon-niituniversity-entrepreneurship-activity-6744122748030726144-9tWi">Runner-Up Prize</a></h3>
-							<p>Ideathon 2.0, NIIT University</p>
+							<h3><a href="https://www.linkedin.com/posts/niit-university_ideathon-niituniversity-entrepreneurship-activity-6744122748030726144-9tWi" target="_blank">Ideathon 2.0, NIIT University</a></h3>
+							<p>Runner-Up</p>
 						</div> 
 					</div>
 				</div>
 				<div class="col-md-4">
 					<div class="fh5co-blog animate-box">
 						<div class="blog-text">
-							<h3><a href="https://www.linkedin.com/posts/kerav-nahar-33572b192_certificate-of-appreciation-activity-6822922357678624768-n5b2?utm_source=linkedin_share&utm_medium=member_desktop_web">Second Runner-Up Prize</a></h3>
-							<p>Hackathon 3.0, NIIT University</p>
+							<h3><a href="https://www.linkedin.com/posts/kerav-nahar-33572b192_certificate-of-appreciation-activity-6822922357678624768-n5b2?utm_source=linkedin_share&utm_medium=member_desktop_web" target="_blank">Hackathon 3.0, NIIT University</a></h3>
+							<p>Second Runner-Up</p>
 						</div> 
 					</div>
 				</div>
 				<div class="col-md-4">
 					<div class="fh5co-blog animate-box">
 						<div class="blog-text">
-							<h3><a href="https://www.linkedin.com/posts/kerav-nahar-33572b192_ihack-hackathons-activity-6853407946626490368-Py0z?utm_source=linkedin_share&utm_medium=member_desktop_web">Runner-Up Prize</a></h3>
-							<p>ZE iHack, Eorra Consulting</p>
+							<h3><a href="https://www.linkedin.com/posts/kerav-nahar-33572b192_ihack-hackathons-activity-6853407946626490368-Py0z?utm_source=linkedin_share&utm_medium=member_desktop_web" target="_blank">ZE iHack, Eorra Consulting</a></h3>
+							<p>Runner-Up</p>
 						</div> 
 					</div>
 				</div>
@@ -522,10 +599,10 @@
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
 					<h2>Contact Me</h2>
 					<p><ul class="fh5co-social-icons">
-						<li><a href="https://github.com/KeravNahar"><i class="icon-github" style="color: white;"></i></a></li>
-								<li><a href="https://www.behance.net/keravnahar"><i class="icon-behance" style="color: white;"></i></a></li>
-								<li><a href="https://www.linkedin.com/in/kerav-nahar-33572b192"><i class="icon-linkedin2" style="color: white;"></i></a></li>
-								<li><a href="mailto: kerav16@gmail.com"><i class="icon-mail" style="color: white;"></i></a></li>
+						<li><a href="https://github.com/KeravNahar" target="_blank" ><i class="icon-github" style="color: white;"></i></a></li>
+								<li><a href="https://www.behance.net/keravnahar" target="_blank" ><i class="icon-behance" style="color: white;"></i></a></li>
+								<li><a href="https://www.linkedin.com/in/kerav-nahar-33572b192" target="_blank" ><i class="icon-linkedin2" style="color: white;"></i></a></li>
+								<li><a href="mailto: kerav16@gmail.com" target="_blank" ><i class="icon-mail" style="color: white;"></i></a></li>
 					</ul></p>
 				</div>
 			</div>
@@ -538,7 +615,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
-					<p>&copy; 2022 Copyright <br>Designed by Kerav Nahar </p>
+					<p>&copy; 2023 Copyright <br>Designed by Kerav Nahar </p>
 				</div>
 			</div>
 		</div>
